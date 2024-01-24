@@ -7,10 +7,11 @@ import os
 
 """
 stage 2: identify the type of hash
-common hashes: MD1,MD5,SHA1,SHA2,,SHA512
+most common checksum algorithms include:
+MD5, SHA1, SHA256, SHA512
 """
 
-def hc():
+def hca():
     #input sequence
     hash1 = input("Input first hash:\n")
     if hash1 == "":
@@ -41,4 +42,4 @@ def hc():
         print(hash2)
         print("INVALID MATCH")
 
-hc()
+hca()
